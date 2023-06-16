@@ -7,6 +7,7 @@ body {
 
 img {
     border-radius: 4px;
+    margin: 5px;
 }
 
 #prefold {
@@ -19,7 +20,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 100px 50px 100px;
+    padding: 5px 200px 50px 200px;
 }
 
 #nav button {
@@ -37,6 +38,7 @@ img {
 #main-CTA h2 {
     font-size: 45px;
     font-family: Georgia, serif;
+    margin-bottom: 10px;
 }
 
 #main-CTA button {
@@ -44,7 +46,7 @@ img {
     color: white;
     border-radius: 4px;
     border: none;
-    padding: 4px;
+    padding: 10px;
     margin-top: 10px;
 }
 
@@ -62,7 +64,7 @@ button:hover{
     align-items: center;
     display: flex;
     color: white;
-    padding: 5px 100px 5px 100px;
+    padding: 5px 300px 5px 200px;
 }
 
 #main-CTA {

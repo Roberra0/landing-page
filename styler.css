@@ -1,0 +1,137 @@
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 4px;
+}
+
+#prefold {
+    background-color: #1F2937;
+    padding-bottom: 10%;
+}
+
+#nav {
+    /* border: red solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px 50px 100px;
+}
+
+#nav button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid rgb(255, 255, 255);
+    color: white;
+}
+
+#main-CTA p {
+    font-size: 12px;
+    font-family: Georgia, serif;
+}
+
+#main-CTA h2 {
+    font-size: 45px;
+    font-family: Georgia, serif;
+}
+
+#main-CTA button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+
+button:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+ }
+ 
+
+#main-content {
+    /* border: red solid; */
+    justify-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: center;
+    display: flex;
+    color: white;
+    padding: 5px 100px 5px 100px;
+}
+
+#main-CTA {
+    /* border: yellow solid; */
+}
+
+
+/* Body CSS */
+figure {
+    margin: 10px;
+}
+
+#customers{
+    display: flex;
+    justify-content: center;    
+}
+
+#bod{
+    text-align: center;
+}
+
+#customer-quote {
+    background-color: rgba(200, 200, 200, 0.194);
+    height: 150px;
+    font-size: 18px;
+    font-family: 'Times New Roman', serif;
+    padding: 50px 300px 0px 300px;
+}
+
+#CTA {
+    background-color: #3882F6;
+    margin: 0 auto;
+    width: 55%;
+    height: 80px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#CTA h4, p {
+    margin: 0;
+    font-size: smaller;
+}
+
+#CTA button{
+    border: solid white;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 4px;
+}
+#CTAtext {
+
+    display: block;
+    text-align: left;
+    color: white;
+}
+
+#footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    margin-top: auto; /* hen, give the footer element a margin-top: auto to make its margin fill the remaining space between it and its previous sibling. Note that this technique will not stretch the previous sibling, but rather push the footer to the bottom of the page */
+}
+
+figcaption {
+    font-size: 10px;
+    width: 150px;
+}
